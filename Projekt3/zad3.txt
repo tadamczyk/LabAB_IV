@@ -21,4 +21,4 @@ Frontend
   b) [1 pkt] Możliwość edycji/usuwania zestawów słówek, które utworzył
 * Realizacja funkcjonalności Super Redaktora
   a) [1 pkt] Możliwość edycji wszystkich zestawów słówek z podkategorii, do której otrzymał uprawnienia od administratora
-*[2 pkt] Frontend - wygląd, responsywność, intuicyjność obsługi.
+* [2 pkt] Frontend - wygląd, responsywność, intuicyjność obsługi.
