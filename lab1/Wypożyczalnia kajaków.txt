@@ -1,0 +1,7 @@
+* adres(id_adres (PK), ulica, numer, kod_pocztowy, miejscowość)
+* klienci(id_klient (PK), id_adres (FK), imię, nazwisko, pesel, e-mail, nr_tel)
+* pracownicy(id_pracownik (PK), id_adres (FK), imię, nazwisko, pesel, e-mail, nr_tel)
+* typ_kajaków(id_typ_kajaka (PK), nazwa, opis)
+* kajaki(id_kajak (PK), id_typ_kajaka (FK), nazwa, nr_inwentarzowy)
+* wypożyczenia(id_wypożyczenie (PK), id_pracownik (FK), id_klient (FK), data_wypożyczenia, data_zwrotu)
+* wypożyczenia_kajaków(id_wypożyczenie (FK), id_kajak (FK), cena)

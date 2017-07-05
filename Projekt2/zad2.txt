@@ -1,0 +1,25 @@
+Wykonaj zadanie:
+* Wymyślić temat bazy danych, utworzyć diagram ERD w narzędziu Oracle SQL Developer Data Modeler,
+  wygenerować skrypt SQL tworzący strukturę bazy danych w systemie Oracle.
+  Diagram powinien zawierać minimum 7 encji, w tym co najmniej jeden związek N:M.
+  Ponadto diagram powinien zawierać informację o użytkownikach i ich rolach. [1 pkt]
+* Utworzyć interfejs do zaprojektowanej aplikacji w APEX 5:
+* Utworzenie CRUDa do całej bazy danych (zamiast identyfikatorów kluczy obcych mają być wyświetlane ich wartości,
+  nie mogą być znane użytkownikowi identyfikatory kluczy głównych, CRUD powinien być spolszczony,
+  format daty powinien być zmieniony na rrrr-mm-dd). [2 pkt]
+* Utwórz stosowne menu nadrzędne i zmień stronę główną aplikacji na swoją
+  (np. wyświetl na niej tekst, grafikę, linki, ...). [1 pkt]
+* Utwórz co najmniej jeden raport interaktywny i prześlij wartość zmiennej do formularza zależnego. [1 pkt]
+* Zmień sposób uwierzytelniania [2 pkt], w taki sposób , aby użytkownicy mogli się logować na swoje konta
+  i otrzymywać dostęp części funkcjonalności tworzonej aplikacji w zależności od posiadanej roli.
+  W tworzonej aplikacji powinny być co najmniej 3 role. Np. Administrator powinien mieć dostęp do całego CRUDa,
+  pracownik powinien posiadać uprawnienia adekwatne do tego, aby mógł obsługiwać klientów,
+  klient powinien mieć dostęp do danych, które go dotyczą.
+*  Zadbaj o kompletność interfejsu. [inaczej -2 pkt] Zademonstruj inne możliwości systemu APEX 5,
+  np. generowanie raportów z wykresem [0,25 pkt], generowanie kalendarza z grafikiem [0,25 pkt], .... [razem 12*0,25=3 pkt].
+
+Należy przesłać:
+* plik *.pdf z diagramem ERD bazy danych,
+* plik *.sql ze skryptem DDL tworzącym strukturę bazy danych,
+* plik *.sql z przykładowymi rekordami,
+* plik *.sql z wyeksportowanym interfejsem w APEX 5.

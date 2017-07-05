@@ -1,0 +1,39 @@
+Dany jest plik: nazwa.csv
+imie;nazwisko;ulica;numer;kod;miejscowosc;telefon;email;data_ur
+Jan;Kowalski;ul. Nowa;1a;11-234;Budry;123-123-456;jan@go.xxx;1980.05.13
+Jerzy;Nowak;ul. Konopnicka;13a/3;00-900;Lichowice;(55)333-44-55;jer@wu.to;1990.03.23
+
+Napisać program w języku C, który w systemie zarządzania bazą danych PostgreSQL utworzy:
+* tabelę o takiej samej nazwie jak nazwa pliku csv (bez rozszerzenia) i o nazwach kolumn
+  identycznymi jak nagłówki pliku csv,
+* należy do utworzonej tabeli dodać nową kolumnę z autoinkrementacją,
+* każda kolumna powinna być typu VARCHAR(10),
+* jeżeli w trakcie działania okaże się, że jest dodawanych więcej znaków, to program powinien
+  skorzystać z polecenia ALTER TABLE i zwiększyć maksymalną długość łańcucha znaków do długości
+  dodawanego łańcucha.
+
+Jeżeli tabela istnieje to należy dodać do niej kolejne rekordy (może będzie potrzeba dodania kolejnych kolumn),
+jeśli nie istnieje, to należy ją utworzyć.
+Wywołanie programu powinno mieć postać ./program nazwa.csv
+Następnie należy utworzyć własny plik csv z sensownymi danymi (co najmniej 5 kolumn i co najmniej 10 wierszy,
+nie znamy z góry ilości kolumn i wierszy) oraz przetestować swój program: ./program plik.csv
+(w przypadku zbyt krótkich wierszy uzupełnij brakujące pola NULLami, a w przypadku zbyt dużej ilości pól pomiń nadmiar).
+Przetestuj swój program.
+
+Dodatkowo należy napisać w języku C własny odpowiednik funkcji
+void PQprint(FILE *output, const PQresult *result, const PQprintOpt *options);
+znajdującej się w bibliotece libpq.
+
+Funkcja ma umożliwiać wypisanie wyniku zapytania SELECT jako atrakcyjnej tabeli HTML.
+(Powinna być możliwość wyboru porządku sortowania wyświetlanych danych.)
+Obowiązują standardy HTML5 i CSS3.
+Wywołanie programu: ./program nazwa_bazy nazwa_tabeli strona1.html ma utworzyć stronę HTML
+zgodną ze standardem http://validator.w3.org/ zawierającą wszystkie rekordy tabeli nazwa_tabeli z bazy danych nazwa_bazy.
+Analogiczne wywołanie programu ./program nazwa_bazy nazwa_tabeli_1 ... nazwa_tabeli_n strona2.html
+ma spowodować wyświetlenie zawartości wszystkich tabel zadanych jako parametry wywołania programu.
+
+Należy przesłać:
+* kod źródłowy napisanego programu,
+* utworzony plik csv,
+* printscreen (*.png) potwierdzający, że dla posiadanego pliku csv została utworzona tabela (wynik SELECT * FROM nazwa_pliku;),
+* przykładowe wyniki: strona1.html oraz strona2.html.

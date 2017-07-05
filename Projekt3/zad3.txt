@@ -1,0 +1,24 @@
+Zapowiedź kryteriów oceniania:
+
+Backend
+* [3 pkt] Realizacja CRUDa do wszystkich tabel (administrator) -
+  (nie mogą być wyświetlane identyfikatory kluczy głównych i obcych, zakładamy że nie będziemy ich wpisywać!,
+  kompletne spolszczenie interfejsu)
+
+Frontend
+* Realizacja funkcjonalności użytkownika niezalogowanego (niezarejestrowanego)
+  a) [1 pkt] Tryb nauki, odpytywanie 1, algorytmy 1 i 2
+  b) [1 pkt] Tryb nauki, odpytywanie 2, algorytmy 1 i 2
+  c) [1 pkt] Tryb sprawdzania wiedzy
+  d) [1 pkt] Inna metoda nauki słówek
+  e) [-1 pkt] Brak możliwości wyświetlenia zestawu słówek
+* Realizacja funkcjonalności użytkownika zalogowanego (posiadającego konto)
+  a) [1 pkt] Zapisywanie procentowych wyników
+  b) [1 pkt] Graficzna prezentacja postępów nauki
+  c) [1 pkt] Prywatne zestawy słówek (dodawanie/edycja/usuwanie/możliwość nauki)
+* Realizacja funkcjonalności Redaktora
+  a) [1 pkt] Możliwość dodawania zestawów słówek do podkategorii, do której otrzymał uprawnienia od administratora
+  b) [1 pkt] Możliwość edycji/usuwania zestawów słówek, które utworzył
+* Realizacja funkcjonalności Super Redaktora
+  a) [1 pkt] Możliwość edycji wszystkich zestawów słówek z podkategorii, do której otrzymał uprawnienia od administratora
+*[2 pkt] Frontend - wygląd, responsywność, intuicyjność obsługi.

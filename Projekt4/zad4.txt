@@ -1,0 +1,20 @@
+Wymyśl temat bazy danych, utwórz jej strukturę w dowolnym SZBD  i zaimplementuj dla niej CRUDa w języku Java
+(np. korzystając z MVC Swing).
+
+Uwagi techniczne:
+1) baza danych ma liczyć co najmniej 5 encji,
+2) każda encja powinna liczyć co najmniej 5 atrybutów (należy co najmniej raz użyć (w dowolnej encji):
+   daty, liczby całkowitej, liczby rzeczywistej, łańcucha znaków, kwoty waluty),
+3) powinien wystąpić co najmniej jeden związek N:M (uwaga: powstanie tabela pośrednicząca!) oraz
+4) powinien wystąpić co najmniej jeden związek 1:N,
+5) użytkownik nie może znać wartości kluczy głównych (można wyświelić LP - liczbę porządkową),
+6) użytkownik nie może znać wartości identyfikatorów kluczy obcych (za zmuszanie użytkownika
+   do pamiętania wartości kluczy obcych będę zabierał 1/3 punktów za to zadanie),
+7) dla każdej z tabel powinny być zdefiniowane operacje: dodawania, modyfikacji, usuwania,
+   wyświetlania pojedynczego i wszystkich rekordów,
+8) zrealizowany CRUD powinien być "idiotoodporny" (walidacja poprawności wartości atrybutów,
+   zabezpieczenie przed przypadkowym kliknięciem (czytaj potwierdzenie przy usuwaniu), itp.),
+9) dla wygody można tworzyć bazy danych w SQLite,
+10) jeżeli baza danych nie istnieje (lub została skasowana) powinna zostać utworzona automatycznie,
+11) Zalecana architektura rozwiązania: MVC (model-widok-kontroler) inaczej -3 pkt,
+12) rozwiązanie prześlij w pliku *.zip (diagram ERD + pliki źródłowe + plik wykonywalny).
