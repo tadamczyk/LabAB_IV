@@ -3,9 +3,9 @@
 Wykład i Laboratorium: dr Robert Fidytek
 
 
-1. [Laboratorium 1](lab1):
+1. [Laboratorium 1](lab1)
 
-2. [Laboratorium 2](lab2):
+2. [Laboratorium 2](lab2)
 
 ***************************************
 
@@ -19,4 +19,4 @@ Projekty:
 
 4. [Projekt 4](Projekt4/zad4_java_Adamczyk_243217.zip) - [treść zadania](Projekt4/zad4,txt)
 
-4. [Projekt 5](Projekt5/zad5_Adamczyk_243217.zip) - [treść zadania](Projekt5/zad5,txt)
+5. [Projekt 5](Projekt5/zad5_Adamczyk_243217.zip) - [treść zadania](Projekt5/zad5,txt)
